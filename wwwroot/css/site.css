@@ -1,0 +1,43 @@
+.container{
+    text-align: center;
+}
+.attr-bar, .img-div, .action-btns{
+    width: 600px;
+    display: inline-block;
+}
+.attr-bar{
+    padding: 10px 0;
+}
+
+.attr-bar h3{
+    margin: 0 8px;
+    display: inline-block;
+}
+
+.img-div{
+    border: 2px solid black;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.action-btns button{
+    margin: 0 10px;
+    width: 80px;
+}
+
+.image{
+    margin: 25px 0;
+    height: 220px;
+    width: 220px;
+    background-image: url("../images/bulb-default.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    
+}
+.text{
+    /*height: 20px;*/
+    width: 400px;
+    display: inline-block;
+    /*border: 1px dotted red;*/
+}
